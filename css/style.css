@@ -63,19 +63,19 @@ header > nav > ul > li > a {
   font-size: calc(100vw * 0.03);
 }
 
-.txt-yellow {
+.color-yellow {
   color: yellow;
 }
-.txt-green {
+.color-green {
   color: green;
 }
 
-.bg-red {
+.bg-color-red {
   background-color: red;
 }
-.bg-yellow {
+.bg-color-yellow {
   background-color: yellow;
 }
-.bg-green {
+.bg-color-green {
   background-color: green;
 }

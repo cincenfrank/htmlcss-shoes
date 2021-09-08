@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+/* Navigation Menu */
+nav {
+  position: fixed;
+  right: 0px;
+  top: 50px;
+  z-index: 2;
+}
+
+nav > ul {
+  list-style: none;
+}
+nav > ul > li {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+nav > ul > li > a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  text-decoration: none;
+  box-shadow: 5px 5px 15px black;
+}
+
+/* Main */
+
+.card {
+  min-height: 100vh;
+  position: relative;
+  align-items: center;
+}
+
+.centered {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+figure {
+  /* display: block; */
+  overflow: hidden;
+}
+
+figure > img {
+  width: 100%;
+  max-height: calc(100vh * 0.8);
+  object-fit: contain;
+}
+
+h1 {
+  font-size: calc(100vh * 0.06);
+}
+
+/* Service Classes */
+
+.cl-green {
+  color: green;
+}
+.cl-yellow {
+  color: yellow;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-yellow {
+  background-color: yellow;
+}
